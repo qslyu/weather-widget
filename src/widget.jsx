@@ -25,10 +25,8 @@ export default function Widget() {
           const forecast = data.forecasts[0];
           const icon = forecast.image.url;
 
-          // const minTemp = forecast.temperature.min.celsius;
-          const minTemp = '11';
-          // const maxTemp = forecast.temperature.max.celsius;
-          const maxTemp = '11';
+          const minTemp = forecast.temperature.min.celsius;
+          const maxTemp = forecast.temperature.max.celsius;
 
           return {
             name: data.location.city,
