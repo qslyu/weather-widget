@@ -11,6 +11,8 @@ export default function App() {
       <br />
       <h2>プレビュー</h2>
       <div style={{containerType: 'inline-size', width:'300px'}}><Widget /></div>
+      <br />
+      <p>x: @_qslyu</p>
     </div>
   );
 }
